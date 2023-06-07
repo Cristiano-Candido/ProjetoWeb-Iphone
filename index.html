@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="menu-topo">
+        <img src="./img/logomac.png" class="img-logo">
+
+        <ul>
+            <li>Mac</li>
+            <li>Ipad</li>
+            <li>Iphone</li>
+            <li>Watch</li>
+            <li>AirPods</li>
+            <li>Acessórios</li>
+            <li>Suporte</li>
+        </ul>
+    </div>
+
+    <div class="div-principal">
+        <div>
+            <h1 class="txt-h1">Iphone 14</h1>
+            <h2 class="txt-h2">Tão poderoso. Tão ao seu alcance.</h2>
+            <p class="txt-p1">Em dois tamanhos perfeitos. Agora com um toque de amarelo.</p>
+            <h4 class="txt-h4">A partir de R$ 633,25/mês ou R$ 7.599,00</h4>
+            <button class="btn">Comprar</button>
+            <p class="txt-escolha-cor">Escolha sua Cor:</p>
+
+            <div class="my-color-buttons">
+                <button class="blue color-change"
+                    onclick="colorChange('#8fb1d4'); imgChange('./img/iphone-azul.png')"></button>
+                <button class="weith color-change"
+                    onclick="colorChange('#eee3e3'); imgChange('./img/iphone-branco.png')"></button>
+                <button class="black color-change"
+                    onclick="colorChange('#202020'); imgChange('./img/iphone-preto.png')"></button>
+                <button class="yellow color-change"
+                    onclick="colorChange('#f7da47'); imgChange('./img/iphone-amarelo.png')"></button>
+                <button class="red color-change"
+                    onclick="colorChange('#ff0000'); imgChange('./img/iphone-vermelho.png')"></button>
+            </div>
+        </div>
+        <div class="img-circulo"></div>
+        <img class="iphone" src="./img/iphone-azul.png">
+    </div>
+
+</body>
+
+</html>
